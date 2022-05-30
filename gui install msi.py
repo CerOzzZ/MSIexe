@@ -4,7 +4,7 @@ from pywinauto.keyboard import send_keys
 import time
 import pyuac
 def main():
-    path = "C:\\Users\\Cesar\\Desktop\\Python installer\\openvpn-connect-3.3.6.2752_signed.msi"
+    path = "\\Path\\"
     app = Application().start(r'msiexec /i ' + path)
 
 if __name__=="__main__":
@@ -13,7 +13,7 @@ if __name__=="__main__":
     else:
         main()
 
-
+#example of key sents
 time.sleep(1)
 send_keys("{ENTER}")
 time.sleep(1)
